@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sarabun", sans-serif;
+
+  header {
+    background-image: url(./img/header-background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+
+    .nav {
+      padding-top: 1.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.7;
+
+      ul {
+        li:nth-child(3) {
+          a {
+            i {
+              font-size: 2.5rem;
+            }
+          }
+        }
+
+        li {
+          display: inline;
+          margin: 4.2rem;
+
+          a {
+            text-decoration: none;
+            color: white;
+            letter-spacing: 1px;
+
+            &:hover {
+              color: rgb(226, 182, 115);
+              transition: 0.4s;
+            }
+          }
+        }
+      }
+    }
+
+    .heading {
+      color: white;
+      font-family: "Katibeh", sans-serif;
+      font-size: 7.5rem;
+      text-align: center;
+      margin-top: 10rem;
+    }
+
+    .text {
+      color: white;
+      font-family: "Sarabun", sans-serif;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      text-align: center;
+      letter-spacing: 1px;
+      opacity: 0.8;
+    }
+
+    .play {
+      margin-top: 4rem;
+      text-align: center;
+      opacity: 0.7;
+      a {
+        color: white;
+        font-size: 5rem;
+      }
+    }
+  }
+
+  main {
+    background-color: black;
+
+    .content1 {
+      text-align: center;
+      margin-bottom: 4rem;
+
+      .heading span {
+        font-size: 2.2rem;
+        color: snow;
+      }
+
+      .text {
+        margin: auto;
+        margin-top: 2rem;
+        width: 35rem;
+        line-height: 1.7rem;
+        color: darkgrey;
+      }
+    }
+
+    .content2 {
+      margin: auto;
+      width: 66.5em;
+      height: 30rem;
+      justify-content: space-around;
+      display: flex;
+
+      .box {
+        width: 20rem;
+        max-height: 100%;
+      }
+
+      .box1 {
+        background-image: url(./img/wharf-lake.jpg);
+        background-size: cover;
+        color: white;
+
+        .head {
+          font-family: "Katibeh", sans-serif;
+          text-align: center;
+          font-size: 2.5rem;
+          margin-top: 23rem;
+          color: snow;
+        }
+
+        .text {
+          text-align: center;
+          margin-top: 1rem;
+          letter-spacing: 1px;
+          color: darkgrey;
+        }
+      }
+
+      .box2 {
+        background-image: url(./img/canyon2.jpg);
+        background-size: cover;
+        color: white;
+
+        .head {
+          font-family: "Katibeh", sans-serif;
+          text-align: center;
+          font-size: 2.5rem;
+          margin-top: 23rem;
+          opacity: 0.9;
+        }
+
+        .text {
+          text-align: center;
+          margin-top: 1rem;
+          letter-spacing: 1px;
+          opacity: 0.9;
+        }
+      }
+
+      .box3 {
+        background-image: url(./img/austria.jpg);
+        background-size: cover;
+        color: white;
+
+        .head {
+          font-family: "Katibeh", sans-serif;
+          text-align: center;
+          font-size: 2.5rem;
+          margin-top: 23rem;
+          opacity: 0.9;
+        }
+
+        .text {
+          text-align: center;
+          margin-top: 1rem;
+          letter-spacing: 1px;
+          opacity: 0.9;
+        }
+      }
+    }
+
+    .content3 {
+      width: 100%;
+      height: 20rem;
+      text-align: center;
+
+      .link {
+        padding-top: 3rem;
+
+        span {
+          a {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(34, 88, 145);
+          }
+        }
+      }
+
+      .heading {
+        color: white;
+        font-size: 2.3rem;
+        margin-top: 7rem;
+        opacity: 0.9;
+      }
+
+      .text {
+        color: white;
+        width: 32rem;
+        margin: auto;
+        opacity: 0.7;
+      }
+    }
+
+    .content4 {
+      margin: auto;
+      margin-top: 2.5rem;
+      width: 67rem;
+      display: flex;
+      justify-content: space-around;
+
+      .box {
+        width: 30rem;
+        height: 30rem;
+      }
+
+      .box1 {
+        .photo {
+          width: 30rem;
+          height: 17rem;
+          background-image: url(./img/yosemite-park.jpg);
+          background-size: cover;
+        }
+
+        .text {
+          .text1 {
+            color: whitesmoke;
+            text-align: center;
+            margin-top: 1rem;
+          }
+
+          .text2 {
+            color: white;
+            text-align: center;
+            font-size: 2.5rem;
+            font-family: "Katibeh", sans-serif;
+          }
+
+          .text3 {
+            color: darkgrey;
+            text-align: center;
+            line-height: 1.5rem;
+            margin: auto;
+            padding-top: 1rem;
+            width: 24rem;
+          }
+        }
+      }
+
+      .box2 {
+        .photo {
+          width: 30rem;
+          height: 17rem;
+          background-image: url(./img/golden-state.jpg);
+          background-size: cover;
+        }
+
+        .text {
+          .text1 {
+            color: whitesmoke;
+            text-align: center;
+            margin-top: 1rem;
+          }
+
+          .text2 {
+            color: white;
+            text-align: center;
+            font-size: 2.5rem;
+            font-family: "Katibeh", sans-serif;
+          }
+
+          .text3 {
+            color: darkgrey;
+            text-align: center;
+            line-height: 1.5rem;
+            margin: auto;
+            padding-top: 1rem;
+            width: 24rem;
+          }
+        }
+      }
+    }
+
+    .content5 {
+      background-image: url(./img/3497edb8e6d34001451a11f14b4c2eb8.jpg);
+      background-size: cover;
+      background-color: red;
+      width: 100%;
+      height: 30rem;
+      text-align: center;
+      .link {
+        span {
+          a {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(34, 88, 145);
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: black;
+    height: 4rem;
+    padding-top: 1rem;
+
+    .footer {
+      display: flex;
+      justify-content: center;
+      .copyright {
+        color: darkgrey;
+      }
+
+      .line {
+        color: darkgrey;
+        margin: 0 20px;
+      }
+
+      .nav-footer {
+        color: darkgrey;
+
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            display: inline-block;
+            margin: 0px 10px;
+
+            a {
+              text-decoration: none;
+              color: darkgrey;
+
+              &:hover {
+                color: rgb(226, 182, 115);
+                transition: 0.4s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

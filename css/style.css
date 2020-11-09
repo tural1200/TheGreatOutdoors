@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sarabun", sans-serif;
+}
+
+body header {
+  background-image: url(./img/header-background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+}
+
+body header .nav {
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+body header .nav ul li:nth-child(3) a i {
+  font-size: 2.5rem;
+}
+
+body header .nav ul li {
+  display: inline;
+  margin: 4.2rem;
+}
+
+body header .nav ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+body header .nav ul li a:hover {
+  color: #e2b673;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body header .heading {
+  color: white;
+  font-family: "Katibeh", sans-serif;
+  font-size: 7.5rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+body header .text {
+  color: white;
+  font-family: "Sarabun", sans-serif;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+body header .play {
+  margin-top: 4rem;
+  text-align: center;
+  opacity: 0.7;
+}
+
+body header .play a {
+  color: white;
+  font-size: 5rem;
+}
+
+body main {
+  background-color: black;
+}
+
+body main .content1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+body main .content1 .heading span {
+  font-size: 2.2rem;
+  color: snow;
+}
+
+body main .content1 .text {
+  margin: auto;
+  margin-top: 2rem;
+  width: 35rem;
+  line-height: 1.7rem;
+  color: darkgrey;
+}
+
+body main .content2 {
+  margin: auto;
+  width: 66.5em;
+  height: 30rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .content2 .box {
+  width: 20rem;
+  max-height: 100%;
+}
+
+body main .content2 .box1 {
+  background-image: url(./img/wharf-lake.jpg);
+  background-size: cover;
+  color: white;
+}
+
+body main .content2 .box1 .head {
+  font-family: "Katibeh", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 23rem;
+  color: snow;
+}
+
+body main .content2 .box1 .text {
+  text-align: center;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  color: darkgrey;
+}
+
+body main .content2 .box2 {
+  background-image: url(./img/canyon2.jpg);
+  background-size: cover;
+  color: white;
+}
+
+body main .content2 .box2 .head {
+  font-family: "Katibeh", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 23rem;
+  opacity: 0.9;
+}
+
+body main .content2 .box2 .text {
+  text-align: center;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+body main .content2 .box3 {
+  background-image: url(./img/austria.jpg);
+  background-size: cover;
+  color: white;
+}
+
+body main .content2 .box3 .head {
+  font-family: "Katibeh", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 23rem;
+  opacity: 0.9;
+}
+
+body main .content2 .box3 .text {
+  text-align: center;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+body main .content3 {
+  width: 100%;
+  height: 20rem;
+  text-align: center;
+}
+
+body main .content3 .link {
+  padding-top: 3rem;
+}
+
+body main .content3 .link span a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #225891;
+}
+
+body main .content3 .heading {
+  color: white;
+  font-size: 2.3rem;
+  margin-top: 7rem;
+  opacity: 0.9;
+}
+
+body main .content3 .text {
+  color: white;
+  width: 32rem;
+  margin: auto;
+  opacity: 0.7;
+}
+
+body main .content4 {
+  margin: auto;
+  margin-top: 2.5rem;
+  width: 67rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main .content4 .box {
+  width: 30rem;
+  height: 30rem;
+}
+
+body main .content4 .box1 .photo {
+  width: 30rem;
+  height: 17rem;
+  background-image: url(./img/yosemite-park.jpg);
+  background-size: cover;
+}
+
+body main .content4 .box1 .text .text1 {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+body main .content4 .box1 .text .text2 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Katibeh", sans-serif;
+}
+
+body main .content4 .box1 .text .text3 {
+  color: darkgrey;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: auto;
+  padding-top: 1rem;
+  width: 24rem;
+}
+
+body main .content4 .box2 .photo {
+  width: 30rem;
+  height: 17rem;
+  background-image: url(./img/golden-state.jpg);
+  background-size: cover;
+}
+
+body main .content4 .box2 .text .text1 {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+body main .content4 .box2 .text .text2 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Katibeh", sans-serif;
+}
+
+body main .content4 .box2 .text .text3 {
+  color: darkgrey;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: auto;
+  padding-top: 1rem;
+  width: 24rem;
+}
+
+body main .content5 {
+  background-image: url(./img/3497edb8e6d34001451a11f14b4c2eb8.jpg);
+  background-size: cover;
+  background-color: red;
+  width: 100%;
+  height: 30rem;
+  text-align: center;
+}
+
+body main .content5 .link span a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #225891;
+}
+
+body footer {
+  background-color: black;
+  height: 4rem;
+  padding-top: 1rem;
+}
+
+body footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer .footer .copyright {
+  color: darkgrey;
+}
+
+body footer .footer .line {
+  color: darkgrey;
+  margin: 0 20px;
+}
+
+body footer .footer .nav-footer {
+  color: darkgrey;
+}
+
+body footer .footer .nav-footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+body footer .footer .nav-footer ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+body footer .footer .nav-footer ul li a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+body footer .footer .nav-footer ul li a:hover {
+  color: #e2b673;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+/*# sourceMappingURL=style.css.map */
